@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Noticias Aleatorias</h1>
+        <span class="material-symbols-outlined" id="burguer" onclick="clicar()">menu</span>
+        <menu id="menu">
+            <ul>
+                <li><a href="#">Opcao 1</a></li>
+                <li><a href="#">Opcao 2</a></li>
+                <li><a href="#">Opcao 3</a></li>
+                <li><a href="#">Opcao 4</a></li>
+                <li><a href="#">Opcao 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Jovens utilizam tecnologia para criar site informativo durante aula prática</h2>
+            <p>
+               Durante uma aula prática de informática, um grupo de estudantes desenvolveu um site simples com conteúdo informativo, demonstrando como a tecnologia pode ser usada como ferramenta de aprendizagem dentro do ambiente escolar. A atividade teve como principal objetivo introduzir os alunos aos conceitos básicos de desenvolvimento web, organização de informação digital e pensamento lógico aplicado à programação
+            </p>
+            <p>
+                A iniciativa surgiu no contexto de uma aula voltada para a compreensão do funcionamento da internet e dos sites que fazem parte do dia a dia dos estudantes. Com o apoio do professor, os alunos foram orientados a criar uma página que simulasse uma notícia, respeitando elementos essenciais como título, subtítulo, corpo do texto e clareza na comunicação das ideias.
+            </p>
+            <p>
+                Segundo o docente responsável pela atividade, o exercício foi pensado para aproximar os estudantes da realidade tecnológica atual. “Hoje em dia, quase toda a informação que consumimos vem da internet. É importante que os alunos entendam não só como usar os sites, mas também como eles são criados”, explicou.
+            </p>
+            <p>
+                Durante o desenvolvimento do site, os estudantes aprenderam noções básicas de estruturação de conteúdo, como a separação entre título e texto principal, além da importância de uma linguagem clara e objetiva. A prática também incentivou o trabalho em grupo, a troca de ideias e a resolução de pequenos problemas que surgiram ao longo do processo.
+            </p>
+            <p>
+                Para muitos alunos, esta foi a primeira experiência direta com a criação de um site. Alguns relataram dificuldades iniciais, especialmente na organização do conteúdo e na compreensão da lógica por trás do funcionamento das páginas web. No entanto, com orientação e prática, conseguiram concluir a tarefa com sucesso, o que aumentou a confiança e o interesse pela área tecnológica.
+            </p>
+            <p>
+                Além do aspeto técnico, a atividade destacou a importância da responsabilidade na produção de conteúdos informativos. Os alunos foram incentivados a escrever textos claros, verdadeiros e bem estruturados, compreendendo o papel da informação na sociedade e o impacto que uma notícia pode ter quando é publicada online.
+            </p>
+            <p>
+                A escola tem apostado cada vez mais em metodologias práticas para tornar o ensino mais dinâmico e próximo da realidade dos estudantes. Atividades como esta ajudam a desenvolver competências importantes para o futuro, como pensamento crítico, criatividade e autonomia no uso das tecnologias digitais.
+            </p>
+            <p>
+                No final da aula, o resultado foi considerado positivo tanto pelos alunos quanto pelo professor. O site criado, apesar de simples, representou um grande passo no entendimento de como funcionam as ferramentas digitais que fazem parte do quotidiano moderno. Muitos estudantes demonstraram interesse em aprender mais sobre programação e desenvolvimento web, mostrando que iniciativas práticas podem despertar vocações e abrir portas para futuras carreiras na área da tecnologia.
+            </p>
+        </article>
+    </main>
+
+
+    <script>
+        function clicar() {
+            let menu = document.getElementById('menu')
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
