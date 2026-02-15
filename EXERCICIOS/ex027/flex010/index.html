@@ -8,17 +8,18 @@
         .container {
             background: lightsalmon;
             display: flex;
-            height: 300px;
-            flex-flow: row wrap;
-            justify-content: space-around;
-            align-content: stretch;
+            flex-flow: row nowrap;
         }
 
         .itens {
             background-color: lightskyblue;
             border: 1px solid black;
-            text-align: center;
+            text-align: center; 
+            flex-basis: 250px;
+            flex-shrink: 1;
+            flex-grow: 1;
         }
+        
     </style>
 </head>
 <body>
@@ -26,10 +27,6 @@
         <div class="itens">A</div>
         <div class="itens">B</div>
         <div class="itens">C</div>
-        <div class="itens">D</div>
-        <div class="itens">E</div>
-        <div class="itens">F</div>
-        <div class="itens">G</div>
     </div>
 </body>
 </html>

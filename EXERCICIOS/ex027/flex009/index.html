@@ -8,27 +8,25 @@
         .container {
             background: lightsalmon;
             display: flex;
-            height: 300px;
-            flex-flow: row wrap;
-            justify-content: space-around;
-            align-content: stretch;
+            flex-flow: row nowrap;
         }
 
         .itens {
             background-color: lightskyblue;
             border: 1px solid black;
             text-align: center;
+            flex-basis: 150px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="itens">A</div>
-        <div class="itens">B</div>
+        <div class="itens">Outro Conteudo</div>
         <div class="itens">C</div>
-        <div class="itens">D</div>
+        <div class="itens">Conteudo um pouco maior</div>
         <div class="itens">E</div>
-        <div class="itens">F</div>
+        <div class="itens">Conteudo mais um pouco maior que vai ocupar mais espaco</div>
         <div class="itens">G</div>
     </div>
 </body>
